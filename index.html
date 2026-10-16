@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <title>Tháng 9 đẹp đẽ nha!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="falling-leaves"></div>
+    
+    <div class="card-container">
+        <div class="card initial-card" id="initialCard">
+            <div class="card-decoration top-left"></div>
+            <div class="card-decoration top-right"></div>
+            <h1>Xin chào</h1>
+            <p class="subtitle">Nhớ cười tươi trước khi mở quà!</p>
+            <img src="images/gift.svg" alt="Gift" class="gift-image">
+            <!-- <p class="hint">Bấm vào đây để mở quà</p> -->
+            <div class="card-decoration bottom-left"></div>
+            <div class="card-decoration bottom-right"></div>
+        </div>
+        
+        <div class="card hidden-card" id="hiddenCard">
+            <img src="images/have-a-nice-september.png" alt="Nice September" class="september-image">
+            <div class="wishes">
+                <h2>Tháng 9 thật choáy nhe!</h2>
+                <p>Nhanh thiệc mới đây hết hè ròi.<br>Chúc bạn tháng mới gặp nhiều may mắn, nhiều niềm dui!</p>
+                <p style="padding-top: 10px">♪ <i>Nhớ cười thật nhiều nhe</i> ♪<br><i>bạn cười đẹp lắm á</i></p>
+                <!-- <p class="music-note">♪ Click anywhere to toggle music ♪</p> -->
+            </div>
+        </div>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="music/Lối-nhỏ_Đen.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
